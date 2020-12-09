@@ -1,13 +1,14 @@
-#Arth Task 10
+# Arth Task 10
 
-Task Statement:
+## Task Statement:
 
 Write an Ansible PlayBook that does the following operations in the managed nodes:
-í ½í´¹ Configure Docker
-í ½í´¹ Start and enable Docker services
-í ½í´¹ Pull the httpd server image from the Docker Hub
-í ½í´¹ Run the docker container and expose it to the public
-í ½í´¹ Copy the html code in /var/www/html directory and start the web server
+   
+   - Configure Docker
+   - Start and enable Docker services
+   - Pull the httpd server image from the Docker Hub
+   - Run the docker container and expose it to the public
+   - Copy the html code in /var/www/html directory and start the web server
 
 
 ## Solution 
@@ -19,4 +20,4 @@ Write an Ansible PlayBook that does the following operations in the managed node
    - Delete_custom__env.yml   :  This file again remove the whole setup for better testing and management.
 
 
-Thanks guys... 
+Thanks guys..  :). 

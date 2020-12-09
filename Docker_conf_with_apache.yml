@@ -42,7 +42,10 @@
                           print `ifconfig`
 
                           ?>
-                          <\pre>      
+
+                          <h1> Website Successfully hosted over Docker </h1>
+                          <h2> created by Kaushal Soni </h2>
+                          </pre>      
           - name: "Launch Container httpd and Website hosted"
             community.general.docker_container:
                     name: "{{ name }}"
